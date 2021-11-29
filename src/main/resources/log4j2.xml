@@ -13,8 +13,8 @@
 
 		<!-- Rolling Random Access File Appender with a default buffer of 256 * 1024 bytes -->
 		<RollingRandomAccessFile name="RollingRandomAccessFileAppender"
-								 fileName="logs/java-path-core-serialization-advantage-showcase.log"
-								 filePattern="logs/java-path-core--serialization-advantage-showcase-%d{yyyy-MM-dd}.zip">
+								 fileName="logs/java-path-core-deployment-advantage-showcase.log"
+								 filePattern="logs/java-path-core--deployment-advantage-showcase-%d{yyyy-MM-dd}.zip">
 			<PatternLayout>
 				<Pattern>${LOG_PATTERN}</Pattern>
 			</PatternLayout>
